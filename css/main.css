@@ -1,0 +1,98 @@
+/* GENERAL CSS */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces&family=Mochiy+Pop+P+One&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 96px;
+}
+
+img{
+    display: inline-block;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* HEADER CSS */
+.header{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top:44px;
+}
+
+.hero{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-logo{
+    text-decoration: none;
+}
+
+.hero-logo:hover{
+    color:#333D4B;
+    opacity: 0.8;
+}
+
+/* HERO-NAV CSS */
+.nav-hero{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-list{
+    display: flex;
+    list-style: none;
+}
+
+.hero-item{
+    padding-left: 33px;
+}
+
+
+.hero-item a{
+    text-decoration: none;
+    font-weight:900;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.hero-item a:hover{
+    color:#333D4B;
+}
+
+.hero-item a:active{
+    color: #212122;
+}
