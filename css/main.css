@@ -110,7 +110,7 @@ main{
     padding-top: 48px;
 }
 .great-container{
-    background-image: url("../images/Bitmap1.jpg");
+    background-image: url("../images/Bitmapa.jpg");
     background-repeat: no-repeat;
     width: 1280px;
     height: 600px;
@@ -511,5 +511,252 @@ main{
 
 .fa{
     margin-right: 12px;
+    font-size: 24px;
+}
+
+/* SITE ABOUT CSS */
+
+.about{
+    background-image: url("../images/Group7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1280px 450px;
+    height: 450px;
+}
+.about-text{
+    margin: 0;
+    padding: 0;
+}
+
+.text-heading{
+    height: 48px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    padding-top:137px;
+    padding-left: 85px;
+}
+
+.text-desc{
+    height: 104px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    padding:30px 750px 137px 85px;
+}
+
+
+/* SITE OUR CSS */
+
+.our_commitment{
+    display: flex;
+    align-items: center;
+    padding: 168px 0;
+}
+.our-text{
+    margin: 0;
+    padding: 0;
+}
+
+.our-text-img{
+    margin-right: 125px;
+}
+.our-commitment{
+    margin: 0;
+    padding: 0;
+}
+
+.commitment-heading{
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commitment-desc{
+    width: 540px;
+    padding-right: 39px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+  /* SITE QUALITY CSS */
+
+.quality-container{
+     background: #000000;
+     width: 1280px;
+     height: 474px;
+     border-radius: 5px;
+}
+.quality-text{
+  margin: 0;
+  padding: 0;
+}
+
+.quality-text-heading{
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    padding-top: 100px;
+    padding-left: 85px;
+    margin-bottom:32px;
+}
+
+.quality-text-desc{
+    width: 591px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding-left: 85px;
+    padding-top: 32px;
+}
+
+.quality-text-img{
+    position: relative;
+    width: 445px;
+    height: 474px;
+    left: 741px;
+    bottom: 461px;
+    margin: 0;
+    padding: 0;
+    border-radius: 7px;
+}
+
+/* OUR HEADQUARTERS */
+
+.siteour-text{
+    padding-top:168px;
+    padding-left: 120px;
+}
+
+.siteour-heading{
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.siteour-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 72px;
+    padding-bottom: 47px;
+}
+
+.siteour-item{
+    padding-right: 128px;
+}
+
+.siteour-item-paragraph{
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.siteour-item-desc{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+/* SITE FOOTER CSS */
+
+.footer{
+    background-color: #2C343E;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-left-link{
+    text-decoration: none;
+}
+
+.footer-bottom-left-link:hover{
+    opacity: 0.8;
+}
+.footer-bottom-list{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.footer-bottom-item{
+    width: 141px;
+    height: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+}
+.footer-bottom-item a{
+    color: #83888F;
+    text-decoration: none;
+}
+
+.footer-bottom-item a:hover{
+     color: #fff;
+}
+
+.footer-bottom-right-list{
+    display: flex;
+    list-style: none;
+    margin-right: 141px;
+}
+
+.footer-bottom-right-list-item{
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.footer-bottom-right-list-item a{
+    color: #FEFCF7;
+    text-decoration: none;
+}
+
+.footer-bottom-right-list-item a:hover{
+    color: #FDD6BA;
+}
+
+.fa{
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
     font-size: 24px;
 }
